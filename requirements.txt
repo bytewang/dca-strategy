@@ -1,0 +1,4 @@
+tickflow
+pandas
+numpy
+requests
