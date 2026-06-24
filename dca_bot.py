@@ -216,7 +216,7 @@ def get_investment_advice(df, monthly_amount=5000):
         amount = monthly_amount
     
     # 生成企业微信消息内容
-    message = f"""📊 513300 月度定投提醒
+    message = f"""📊 513300 纳斯达克ETF华夏 月度定投提醒
 📅 定投日期: {invest_day.strftime('%Y-%m-%d')}
 💰 最新价格: {latest_price:.4f} 元
 📈 历史分位: {latest_rank:.1%}
