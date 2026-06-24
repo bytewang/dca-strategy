@@ -139,7 +139,7 @@ def get_investment_day(year, month):
     获取当月定投日（19-21号之间的第一个交易日）
     返回：(定投日日期, 是否为有效定投日)
     """
-    for day in [24]:
+    for day in [19, 20, 21]:
         try:
             d = datetime(year, month, day).date()
             if d.weekday() < 5:  # 周一至周五
